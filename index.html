@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructuras de Información II</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Docentes y matrices</h1>
+        <p>Estructuras de Información II · JavaScript y localStorage</p>
+        <p>Usa los botones para ingresar datos. Las filas y columnas se cuentan desde 0.</p>
+
+        <section aria-labelledby="tituloDocentes">
+            <h2 id="tituloDocentes">Docentes</h2>
+            <button type="button" onclick="agregarDocente()">Agregar docente</button>
+            <button type="button" onclick="listarDocentes()">Listar docentes</button>
+            <button type="button" onclick="eliminarDocente()">Eliminar docente</button>
+        </section>
+
+        <section aria-labelledby="tituloMatrices">
+            <h2 id="tituloMatrices">Matrices</h2>
+            <div>
+                <button type="button" onclick="crearMatriz('matrizA')">Crear Matriz A</button>
+                <button type="button" onclick="crearMatriz('matrizB')">Crear Matriz B</button>
+                <button type="button" onclick="mostrarMatrices()">Mostrar matrices</button>
+            </div>
+            <div>
+                <button type="button" onclick="modificarMatriz('matrizA')">Modificar Matriz A</button>
+                <button type="button" onclick="modificarMatriz('matrizB')">Modificar Matriz B</button>
+            </div>
+            <p>Crear una matriz nuevamente reemplaza sus valores al completar el ingreso.</p>
+        </section>
+
+        <section aria-labelledby="tituloOperaciones">
+            <h2 id="tituloOperaciones">Operaciones</h2>
+            <button type="button" onclick="sumarMatrices()">Sumar A + B</button>
+            <button type="button" onclick="restarMatrices()">Restar A - B</button>
+            <button type="button" onclick="multiplicarMatrices()">Multiplicar A × B</button>
+        </section>
+
+        <p id="mensaje" role="status" aria-live="polite">Datos recuperados al abrir la página.</p>
+
+        <section aria-labelledby="tituloResultados">
+            <h2 id="tituloResultados">Resultados</h2>
+            <div id="zonaDocentes" class="tabla"></div>
+            <div id="zonaMatrizA" class="tabla"></div>
+            <div id="zonaMatrizB" class="tabla"></div>
+            <div id="zonaResultado" class="tabla">
+                <h3>Resultado de la operación</h3>
+                <p>Selecciona una operación para ver el resultado.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

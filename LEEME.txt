@@ -1,0 +1,41 @@
+DOCENTES Y MATRICES - PROYECTO PORTABLE
+
+Puedes copiar esta carpeta o compartir Docentes-y-matrices.zip con otro computador.
+El programa usa HTML, CSS y JavaScript. No necesita instalar dependencias ni tener
+conexión a Internet para funcionar.
+
+CÓMO ABRIRLO
+
+1. Descarga o copia el archivo Docentes-y-matrices.zip.
+2. Descomprímelo. En Windows: clic derecho > Extraer todo.
+3. Entra en la carpeta extraída.
+4. Abre index.html con Chrome o Edge.
+   Puedes hacer clic derecho > Abrir con > escoger el navegador.
+5. Usa los botones e ingresa los datos en las preguntas que aparecen.
+
+No abras index.html directamente dentro del ZIP. Extrae todos los archivos primero.
+Mantén index.html, script.js y style.css juntos en la misma carpeta.
+
+ARCHIVOS INCLUIDOS
+
+index.html: interfaz y botones.
+script.js: docentes, matrices, operaciones y almacenamiento.
+style.css: presentación sencilla.
+EXPLICACION.md: guía completa para estudiar y explicar el código.
+LEEME.txt: estas instrucciones.
+
+DATOS GUARDADOS
+
+El ZIP contiene el programa y su explicación. Los docentes y las matrices que
+ingreses se guardan en localStorage del navegador, no en los archivos del proyecto.
+Por eso copiar la carpeta o el ZIP no transfiere esos datos a otro computador.
+Cada computador y navegador tendrá sus propios datos.
+
+Para recuperar los datos en el mismo computador, usa el mismo navegador, perfil
+y ruta de index.html. Evita el modo privado. El comportamiento de localStorage
+para archivos locales puede variar entre navegadores.
+
+PARA ESTUDIAR
+
+Abre EXPLICACION.md con un editor de texto. Incluye los temas de matrices,
+ciclos for, eliminación de docentes y localStorage, con ejemplos paso a paso.
